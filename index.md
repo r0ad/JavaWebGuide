@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 查看题库
-      link: /markdown-examples
+      link: /题库/基础语法/Q08
     - theme: alt
       text: 查看源码
-      link: /markdown-examples
+      link: https://github.com/r0ad/JavaWebGuide
 features:
   - title: 详细正确
     details: 每个题目对应一个详细答案

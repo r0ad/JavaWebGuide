@@ -12,15 +12,17 @@ const tiku = {
     Q0X: "", 
     Q05: "continue、break 和 return 的区别是什么？", 
     Q06: "Java 中的几种基本数据类型了解么？", 
+    Q07: "重载和重写的区别", 
+    Q08: "常见基础语法题目（一）", 
   },
   JVM: {
-    Q01: "简述一下JVM的内存模型",
-    Q02: "什么是装箱？什么是拆箱？装箱和拆箱的执行过程？常见问题23333",
+    Q01: "常见JVM题目（一）",
+    Q02: " ",
   },
-  多线程和并发: {
+  /* 多线程和并发: {
     Q01: "什么是装箱？什么是拆箱？装箱和拆箱的执行过程？常见问题？",
     Q02: "什么是装箱？什么是拆箱？装箱和拆箱的执行过程？常见问题23333",
-  }
+  } */
 };
 
 /**
@@ -56,13 +58,13 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "题库", link: "/markdown-examples" },
+      { text: "题库", link: "/题库/基础语法/Q08" },
     ],
 
     sidebar: [...tikuGen()],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/r0ad/JavaWebGuide" },
     ],
   },
 });
