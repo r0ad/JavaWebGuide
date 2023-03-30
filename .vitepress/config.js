@@ -72,6 +72,8 @@ export function tikuGen() {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang:"zh_cn",
+  base: '/JavaWebGuide/',
   title: "Java Web Guide",
   description: "Java向全栈工程师面试题库",
   themeConfig: {

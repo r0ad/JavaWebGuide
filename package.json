@@ -1,4 +1,5 @@
 {
+  "license": "GPL2",
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
