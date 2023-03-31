@@ -2,6 +2,9 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: Java Web Guide
+titleTemplate: Java向全栈工程师面试题库
+
 hero:
   name: "Java Web Guide"
   text: "Java向全栈工程师面试题库"
